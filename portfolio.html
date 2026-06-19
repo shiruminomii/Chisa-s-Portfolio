@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chisa Dang — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAV
+══════════════════════════════════════════════════════════ -->
+<header class="nav">
+    <div class="container nav__inner">
+        <a href="#hero" class="nav__logo">Chisa Dang</a>
+        <nav aria-label="Primary">
+            <ul class="nav__links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#styleguide">Style Guide</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+    <div class="container">
+
+        <p class="eyebrow hero__eyebrow">
+            Portfolio &mdash; Interactive Arts &amp; Technology &middot; SFU
+        </p>
+
+        <h1 class="hero__name">
+            <span class="hero__name-marked">Chisa's</span><br>
+            Portfolio
+        </h1>
+
+        <div class="hero__bottom">
+            <p class="hero__roles">
+                Game Designer<br>
+                Illustrator<br>
+                UI / UX Designer<br>
+                Web Developer
+            </p>
+            <span class="hero__scroll" aria-hidden="true">Scroll to explore ↓</span>
+        </div>
+    </div>
+
+    <div class="hero__stamp" aria-hidden="true">
+        IAT &middot; SFU &middot; Surrey BC &middot; Est. 2022
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     ABOUT / BIO
+══════════════════════════════════════════════════════════ -->
+<section class="section about" id="about">
+    <div class="container">
+        <div class="about__grid">
+
+            <div>
+                <h2 class="about__heading">
+                    Hello,<br>
+                    I <em>design</em><br>
+                    things.
+                </h2>
+
+                <p class="about__bio">
+                    I'm Chisa Dang, an Interactive Arts &amp; Technology student
+                    at Simon Fraser University working at the intersection of
+                    game design, illustration, and user experience. I care about
+                    the <em>why</em> behind every design decision — from a
+                    meaningful game mechanic to a considered pixel. My practice
+                    moves between narrative scripts, concept art, and interactive
+                    systems, tied together by a rigorous process and a genuine
+                    love for the weird, playful edges of interactive media.
+                    <!-- [PLACEHOLDER — rewrite in your own voice] -->
+                </p>
+
+                <span class="eyebrow about__seeking-label">Currently Seeking</span>
+                <ul class="about__seeking">
+                    <li>Game Design &amp; Development roles</li>
+                    <li>Illustration &amp; Concept Art opportunities</li>
+                    <li>UI / UX Design positions</li>
+                    <li>Creative collaborations in interactive media</li>
+                    <!-- [PLACEHOLDER — add or remove interests] -->
+                </ul>
+
+                <div class="about__skills">
+                    <span class="tag">Figma</span>
+                    <span class="tag">Unity</span>
+                    <span class="tag">Clip Studio Paint</span>
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">Illustrator</span>
+                    <span class="tag">HTML / CSS</span>
+                    <span class="tag">Java</span>
+                    <!-- [PLACEHOLDER — add skills] -->
+                </div>
+            </div>
+
+            <!-- Right: photo placeholder -->
+            <div>
+                <div class="about__photo-wrap">
+                    <!-- [PLACEHOLDER — Replace with your photo] -->
+                    <div class="about__photo-frame ph">
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="4" width="24" height="36" rx="1" fill="#A9A2A5"/>
+                            <circle cx="22" cy="18" r="7" fill="#F3F3F1"/>
+                            <ellipse cx="22" cy="36" rx="13" ry="7" fill="#F3F3F1"/>
+                        </svg>
+                        Your Photo Here<br>[ Replace this placeholder ]
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     STYLE GUIDE — VISUAL ETHOS
+     (Integrated into the portfolio as a design-thinking section)
+══════════════════════════════════════════════════════════ -->
+<section class="section sg" id="styleguide">
+    <div class="container">
+
+        <h2 class="sg__heading">Visual Ethos</h2>
+        <p class="sg__sub">
+            A style guide defining the visual language of this portfolio —
+            how colour, type, and layout express the character of the work.
+        </p>
+
+        <div class="sg__grid">
+
+            <!-- Colour palette -->
+            <div>
+                <span class="sg__block-label">Colour Palette</span>
+                <div class="sg__swatches">
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#F3F3F1;"></div>
+                        <span class="sg__swatch-name">White Smoke &nbsp;#F3F3F1</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#F8F8F3;"></div>
+                        <span class="sg__swatch-name">Porcelain &nbsp;&nbsp;&nbsp;#F8F8F3</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#F7C4CB;"></div>
+                        <span class="sg__swatch-name">Cotton Rose &nbsp;#F7C4CB</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#C3BEB9;"></div>
+                        <span class="sg__swatch-name">Silver &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#C3BEB9</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#A9A2A5;"></div>
+                        <span class="sg__swatch-name">Lilac Ash &nbsp;&nbsp;#A9A2A5</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#1407FF;"></div>
+                        <span class="sg__swatch-name">Blue &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1407FF</span>
+                    </div>
+                    <div class="sg__swatch">
+                        <div class="sg__swatch-dot" style="background:#1C1C1A;"></div>
+                        <span class="sg__swatch-name">Ink &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1C1C1A</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typography -->
+            <div>
+                <span class="sg__block-label">Typography</span>
+                <div class="sg__type-group">
+                    <div class="sg__type-sample">
+                        <p class="sg__type-label">Display — Kepler Std (Adobe) · Fallback: Playfair Display</p>
+                        <p class="sg__type-display">Aa Bb Cc</p>
+                    </div>
+                    <div class="sg__type-sample">
+                        <p class="sg__type-label">Display Italic — warmth &amp; narrative voice</p>
+                        <p class="sg__type-italic">Thoughtful Play</p>
+                    </div>
+                    <div class="sg__type-sample">
+                        <p class="sg__type-label">Mono / Labels — Receipt (Adobe) · Fallback: Space Mono</p>
+                        <p class="sg__type-mono">IAT &middot; SFU &middot; GAME DESIGN &middot; ILLUSTRATION</p>
+                    </div>
+                    <div class="sg__type-sample">
+                        <p class="sg__type-label">Body — Thermal Variable (Adobe) · Fallback: Inter</p>
+                        <p class="sg__type-body">Process, iteration, and genuine curiosity drive every project.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Principles -->
+            <div>
+                <span class="sg__block-label">Design Principles</span>
+                <div class="sg__principles">
+                    <div class="sg__principle">
+                        <p class="sg__principle-number">THOUGHTFUL PLAY</p>
+                        <p class="sg__principle-body">
+                            Serious craft in service of warm, human-centred experiences.
+                            Rigour in process; expressiveness in output.
+                        </p>
+                    </div>
+                    <div class="sg__principle">
+                        <p class="sg__principle-number">SHOW THE WORK</p>
+                        <p class="sg__principle-body">
+                            Process is as visible as outcome. Iteration is evidence of
+                            how problems are understood and solved.
+                        </p>
+                    </div>
+                    <div class="sg__principle">
+                        <p class="sg__principle-number">QUIET CONFIDENCE</p>
+                        <p class="sg__principle-body">
+                            No hype, no templates. Deliberate visual and textual choices
+                            reflect a genuine point of view.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.sg__grid -->
+
+        <div class="sg__ethos">
+            <span class="sg__ethos-label">Ethos Statement</span>
+            <p class="sg__ethos-statement">
+                &ldquo;I make things that feel considered — where illustration meets
+                interaction, and narrative meets system.&rdquo;
+                <!-- [PLACEHOLDER — revise to your own voice] -->
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     WORK — SECTION HEADER
+══════════════════════════════════════════════════════════ -->
+<div class="work-banner" id="work">
+    <div class="container work-banner__inner">
+        <h2 class="work-banner__title">
+            Selected<br>
+            <em>Work</em>
+        </h2>
+        <div class="work-banner__meta">
+            <p class="eyebrow">3 Projects &middot; 2025&ndash;2026</p>
+            <p class="eyebrow" style="margin-top:0.4rem; color: var(--silver);">
+                Process analyses for Projects 01 &amp; 02
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     PROJECT 01 — STOP BEING LAZY!
+     Full process analysis (~280 words)
+══════════════════════════════════════════════════════════ -->
+<section class="project" id="project-stop-being-lazy">
+    <div class="container">
+        <div class="project__grid">
+
+            <!-- Visuals -->
+            <div class="project__visuals">
+
+                <!-- [PLACEHOLDER — Main image: board game overview / hero photo] -->
+                <div class="project__main-ph ph">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <rect x="3" y="3" width="30" height="30" rx="2" stroke="#A9A2A5" stroke-width="1.5"/>
+                        <path d="M3 14h30M14 3v30" stroke="#A9A2A5" stroke-width="1"/>
+                    </svg>
+                    Main Image — Board Game Overview<br>
+                    [ Photography or key visual ]
+                </div>
+
+                <!-- [PLACEHOLDER — Process thumbnails] -->
+                <div class="project__thumbs">
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Concept Sketch
+                    </div>
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Playtest Photo
+                    </div>
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Final Board Art
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Content -->
+            <div class="project__content">
+                <p class="project__number eyebrow">Project 01 — Process Analysis</p>
+
+                <h3 class="project__title">Stop Being Lazy!</h3>
+                <p class="project__subtitle">Board Game</p>
+
+                <div class="project__meta-row">
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Course</span>
+                        <span class="project__meta-val">Foundation Game Design, SFU</span>
+                    </div>
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Period</span>
+                        <span class="project__meta-val">Sept &ndash; Dec 2025</span>
+                    </div>
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Role</span>
+                        <span class="project__meta-val">Illustrator, Game Designer</span>
+                    </div>
+                </div>
+
+                <span class="project__analysis-eyebrow">Process Analysis</span>
+
+                <!--
+                ┌────────────────────────────────────────────────────┐
+                │  PROCESS ANALYSIS — DRAFT (≈ 280 words)            │
+                │  Refine and expand with your own writing.          │
+                │  Target: 250–300 words.                            │
+                │  Add specific sketches, feedback, and pivots.      │
+                └────────────────────────────────────────────────────┘
+                -->
+                <div class="project__analysis">
+                    <p>
+                        <em>Stop Being Lazy!</em> began with a question: what does it
+                        feel like — mechanically — to live with ADHD, and can a board
+                        game reflect that without reducing it to a punchline? Approaching
+                        the brief through the inside-out design framework meant anchoring
+                        every rule to an emotional truth before building the system around
+                        it.
+                    </p>
+                    <p>
+                        The earliest phase was research and honest conversation about
+                        executive dysfunction — the gap between intent and action. Initial
+                        concept sketches explored a momentum-based movement system where
+                        energy was a finite, shifting resource, renewed not by rest but
+                        by stimulation that fits the moment. At this stage the design was
+                        sprawling and ambitious; the goal was to generate options, not to
+                        commit to them.
+                        [PLACEHOLDER — describe your specific early sketches and ideas here.]
+                    </p>
+                    <p>
+                        Structured playtesting showed quickly where the design
+                        over-explained itself. Mechanics that felt clever in isolation
+                        confused players mid-game. Each iteration stripped a layer of
+                        complexity while preserving the emotional core: by the third major
+                        revision, "distraction tokens" had become a resource as much as
+                        an obstacle — something players could leverage rather than just
+                        endure.
+                        [PLACEHOLDER — add specifics about feedback received and what changed in response.]
+                    </p>
+                    <p>
+                        Visually, the art direction embraced pop culture pastiche: bold
+                        linework, saturated colour, and a visual density that mirrors the
+                        sensory experience the game describes. Final card and board
+                        illustrations were produced in Clip Studio Paint and refined in
+                        Photoshop, balancing immediate appeal with iconographic clarity
+                        so rules remained legible even mid-play.
+                        [PLACEHOLDER — add images of final illustrations and card layouts.]
+                    </p>
+                </div>
+
+                <div class="project__tags">
+                    <span class="tag">Game Design</span>
+                    <span class="tag">Illustration</span>
+                    <span class="tag">Clip Studio Paint</span>
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">Inside-Out Framework</span>
+                    <span class="tag">Playtesting</span>
+                </div>
+            </div>
+
+        </div><!-- /.project__grid -->
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     PROJECT 02 — BETWEEN US
+     Full process analysis (~275 words) — layout flipped
+══════════════════════════════════════════════════════════ -->
+<section class="project project--alt project--flip" id="project-between-us">
+    <div class="container">
+        <div class="project__grid">
+
+            <!-- Content (order: 1 via .project--flip) -->
+            <div class="project__content">
+                <p class="project__number eyebrow">Project 02 — Process Analysis</p>
+
+                <h3 class="project__title">Between Us</h3>
+                <p class="project__subtitle">2D Video Game</p>
+
+                <div class="project__meta-row">
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Course</span>
+                        <span class="project__meta-val">Narrative New Media, SFU</span>
+                    </div>
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Period</span>
+                        <span class="project__meta-val">May &ndash; Aug 2025</span>
+                    </div>
+                    <div class="project__meta-cell">
+                        <span class="project__meta-key">Role</span>
+                        <span class="project__meta-val">Narrative Designer, Game Designer</span>
+                    </div>
+                </div>
+
+                <span class="project__analysis-eyebrow">Process Analysis</span>
+
+                <!--
+                ┌────────────────────────────────────────────────────┐
+                │  PROCESS ANALYSIS — DRAFT (≈ 270 words)            │
+                │  Refine and expand with your own writing.          │
+                │  Target: 250–300 words.                            │
+                └────────────────────────────────────────────────────┘
+                -->
+                <div class="project__analysis">
+                    <p>
+                        <em>Between Us</em> was an exercise in disciplined restraint.
+                        The brief asked for a 2D interactive role-playing game built
+                        narrative-first, which meant every system — movement, dialogue,
+                        camera — had to serve the story rather than compete with it. The
+                        MDA (Mechanics, Dynamics, Aesthetics) framework was adopted early
+                        as both a design lens and a critique tool: each feature proposal
+                        had to justify what aesthetic experience it ultimately created.
+                    </p>
+                    <p>
+                        The script came first. Before a single sprite was drawn, I drafted
+                        character arcs and dialogue trees mapping the emotional journey
+                        players would take. Writing for an interactive medium meant leaving
+                        deliberate gaps in the narrative — moments where direction depends
+                        on player choice rather than cutscene. Balancing author control
+                        with player agency became the central design problem of the whole
+                        project.
+                        [PLACEHOLDER — describe specific narrative challenges: branching, pacing, player testing.]
+                    </p>
+                    <p>
+                        Character development and environment concepting ran in parallel.
+                        Sprite sheets were built for expressiveness at small scale: each
+                        character needed a distinctive silhouette and a palette that
+                        communicated personality at a glance. Multiple iterations refined
+                        the relationship between line weight, colour, and legibility.
+                        [PLACEHOLDER — expand on character iteration and art direction evolution.]
+                    </p>
+                    <p>
+                        The final build held a coherence between its text and image that
+                        players noticed. Testers consistently remarked on emotional
+                        engagement with the characters — which was always the goal, not
+                        technical polish for its own sake, but design rigour in service
+                        of feeling.
+                        [PLACEHOLDER — reflect on key feedback moments and learning.]
+                    </p>
+                </div>
+
+                <div class="project__tags">
+                    <span class="tag">Narrative Design</span>
+                    <span class="tag">2D Game</span>
+                    <span class="tag">MDA Framework</span>
+                    <span class="tag">Character Art</span>
+                    <span class="tag">Sprite Animation</span>
+                    <span class="tag">Dialogue Trees</span>
+                </div>
+            </div>
+
+            <!-- Visuals (order: 2 via .project--flip) -->
+            <div class="project__visuals">
+
+                <!-- [PLACEHOLDER — key in-game screenshot or character art] -->
+                <div class="project__main-ph ph">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <rect x="3" y="6" width="30" height="22" rx="2" stroke="#A9A2A5" stroke-width="1.5"/>
+                        <circle cx="18" cy="17" r="5" stroke="#A9A2A5" stroke-width="1"/>
+                        <rect x="13" y="30" width="10" height="2" rx="1" fill="#A9A2A5"/>
+                    </svg>
+                    Main Image — In-Game Screenshot<br>
+                    [ Best scene or character art ]
+                </div>
+
+                <!-- [PLACEHOLDER — script draft, character sketches, environment concept] -->
+                <div class="project__thumbs">
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Script / Dialogue
+                    </div>
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Character Sprites
+                    </div>
+                    <div class="project__thumb-ph ph" style="font-size:0.6rem; padding:0.5rem;">
+                        Environment Art
+                    </div>
+                </div>
+
+            </div>
+
+        </div><!-- /.project__grid -->
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     PROJECT 03 — BONNE BOUFFE
+     Card format (no full process analysis)
+══════════════════════════════════════════════════════════ -->
+<section class="project-card-wrap" id="project-bonne-bouffe">
+    <div class="container">
+        <p class="eyebrow" style="margin-bottom: var(--sp-md);">
+            Project 03 — Additional Work
+        </p>
+        <div class="project-card">
+
+            <!-- [PLACEHOLDER — Replace with a key screenshot or art from Bonne Bouffe] -->
+            <div class="project-card__ph ph">
+                Bonne Bouffe — Screenshot Placeholder<br>
+                [ Game screen or character art ]
+            </div>
+
+            <div>
+                <p class="eyebrow" style="margin-bottom:0.5rem;">
+                    Multimedia Programming, SFU &middot; May–Aug 2025
+                </p>
+                <h3 class="project-card__heading">Bonne Bouffe</h3>
+                <p class="project-card__role">2D Interactive Game</p>
+
+                <!--
+                [PLACEHOLDER — Brief description ~60 words.
+                  Adapt from resume or rewrite fresh.]
+                -->
+                <p class="project-card__desc">
+                    A 2D interactive game built in Java with Eclipse IDE, where
+                    I led both the engineering and visual direction — producing
+                    environments, characters, and UI elements that hold a
+                    cohesive, appetizing aesthetic across all screens. The project
+                    required resolving technical constraints through visual
+                    problem-solving, working across code and craft simultaneously.
+                </p>
+
+                <div class="project__tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Game Development</span>
+                    <span class="tag">2D Art</span>
+                    <span class="tag">UI Design</span>
+                    <span class="tag">Eclipse IDE</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     CONTACT
+     The one full-bleed blue moment — bold contrast, memorable
+══════════════════════════════════════════════════════════ -->
+<section class="section contact" id="contact">
+    <div class="container contact__inner">
+
+        <h2 class="contact__heading">
+            Let's<br>
+            <em>work</em><br>
+            together.
+        </h2>
+
+        <div class="contact__methods">
+            <div class="contact__method">
+                <span class="contact__method-key">Email</span>
+                <a class="contact__method-val" href="mailto:hpd1@sfu.ca">hpd1@sfu.ca</a>
+            </div>
+            <div class="contact__method">
+                <span class="contact__method-key">Phone</span>
+                <a class="contact__method-val" href="tel:+16723358269">(672) 335-8269</a>
+            </div>
+            <div class="contact__method">
+                <span class="contact__method-key">Location</span>
+                <span class="contact__method-val" style="cursor:default;">Vancouver, BC</span>
+            </div>
+            <!-- [PLACEHOLDER — fill in your own links] -->
+            <div class="contact__method">
+                <span class="contact__method-key">LinkedIn</span>
+                <a class="contact__method-val" href="#">[ LinkedIn URL ]</a>
+            </div>
+            <div class="contact__method">
+                <span class="contact__method-key">Behance / Portfolio</span>
+                <a class="contact__method-val" href="#">[ Behance or site URL ]</a>
+            </div>
+            <div class="contact__method">
+                <span class="contact__method-key">GitHub</span>
+                <a class="contact__method-val" href="#">[ GitHub URL ]</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════════ -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <span class="footer__name">Chisa Dang</span>
+        <span class="footer__copy">
+            &copy; 2026 &middot; Interactive Arts &amp; Technology &middot; SFU
+        </span>
+    </div>
+</footer>
+
+</body>
+</html>
