@@ -532,6 +532,7 @@ ul, ol { list-style: none; }
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
+    margin-bottom: var(--sp-xs);
 }
 
 .project__thumb-ph {
